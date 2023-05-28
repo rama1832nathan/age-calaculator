@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-group">
+            <label for="dob">Enter your Birthdate</label>
+            <input type="date" id="dob" required>
+        </div>
+
+
+        <ul>
+            <div><span id="years"></span>Years</div>
+            <div><span id="months"></span>Months</div>
+            <div><span id="days"></span>Days</div>
+            <div><span id="hours"></span>Hours</div>
+            <div><span id="minutes"></span>Minutes</div>
+            <div><span id="seconds"></span>Seconds</div>
+        </ul>
+        <div class="button">
+            <input type="submit" value="calculate Age" onclick="calculateAge()">
+            <input type="submit" value="Reset" onclick="reset()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

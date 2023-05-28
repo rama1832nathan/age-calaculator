@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(54, 53, 53);
+}
+
+.container{
+    /* background: radial-gradient(farthest-side at bottom left,rgb(0, 47, 255), transparent),radial-gradient(farthest-corner at bottom right,
+      rgba(50, 255, 77, 0.836), transparent 400px),radial-gradient(farthest-corner at top left,
+      rgba(248, 5, 5, 0.692), transparent 350px); */
+      background-color: black;
+      /* box-shadow: rgb(253, 254, 255) 5px 20px 30px -10px; */
+      box-shadow: rgba(255, 254, 254, 0.4) 0px 30px 90px;
+      border-radius: 30px;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 25px;
+    text-align: center;
+    font-family: open sans;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom:15px ;
+    align-items: center;
+    margin-right: 10px;
+}
+
+input[type="date"]{
+    cursor: pointer;
+
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+span{
+    font-weight: bolder;
+    color: #e3f308de;
+    margin-right: 30px;
+    text-align: left;
+}
+.container ul div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    margin-right: 10px;
+    padding-left: 15px;
+
+}
+.button{
+    margin-top: 20px;
+    /* justify-content:right; */
+}
